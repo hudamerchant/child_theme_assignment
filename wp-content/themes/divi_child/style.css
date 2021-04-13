@@ -5,9 +5,12 @@
  Version:      1.0.0
  Text Domain:  divi_child
 */
-.single-banner{
-
-    height: 500px;
+body{
+    width: 1280px;
+    margin: auto;
+}
+.banner{
+    width: 100%;
 }
 .banner-img {
     height: 500px;
@@ -16,6 +19,9 @@
 }
 .img1{
     background-image: url('images/slide.jpg');
+} 
+.img2{
+    background-image: url('images/slide2.jpg');
 } 
 .banner-text{
     position: absolute;

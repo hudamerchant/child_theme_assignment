@@ -13,7 +13,7 @@ function my_theme_enqueue_styles() {
 
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js');
     wp_enqueue_script('slick-js', get_stylesheet_directory_uri().'/js/slick.min.js');
-    wp_enqueue_script('child-script', get_stylesheet_directory_uri().'/js/script.js', 
+    wp_enqueue_script('child-script', get_stylesheet_directory_uri().'/js/script.js?v=1', 
     ['jquery', 'slick-js']
 );
 
